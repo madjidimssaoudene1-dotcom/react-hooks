@@ -1,16 +1,50 @@
-# React + Vite
+# 🎬 React Hooks Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Description
+This is a movie application built with **React (Hooks)** and **Vite**, styled using **Tailwind CSS**.  
+The app allows users to browse, filter, and add their favorite movies or TV shows through a modern and responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🎞️ Display movies using reusable components
+- ➕ Add a new movie
+- 🔍 Filter movies by title
+- ⭐ Filter movies by rating
+- ⚛️ Built using React Hooks (`useState`)
+- 🎨 Styled with Tailwind CSS
+- 📱 Responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 What You Will Learn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- How to use **React Hooks**
+- Component-based architecture in React
+- Managing and updating state
+- Passing props between components
+- Filtering data dynamically
+- Building modern UI with Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Vite)
+- JavaScript (ES6)
+- Tailwind CSS
+
+---
+
+## 📁 Project Structure
+
+``` id="ph1fxg"
+src/
+ ├── components/
+ │   ├── MovieCard.jsx
+ │   ├── MovieList.jsx
+ │   └── Filter.jsx
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
